@@ -13,10 +13,6 @@ export function CreateAccount() {
     let navigate = useNavigate();
 
     // To save keypairs 
-    interface Keys {
-        password: string;
-        prevState: null
-      }
     const[newWalletKey, setNewWalletKey] = useState<Array<number>>();
     
     // This function stores the password
